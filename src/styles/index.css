@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Bahianita|Bungee+Shade|Fredericka+the+Great|Homemade+Apple|Medula+One|Nixie+One|Princess+Sofia|Satisfy&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-width: 100vw;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.app {
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: rgb(172, 161, 235);
+}
+
+.page-container {
+    min-width: 100vw;
+    min-height: 100vh;
+}

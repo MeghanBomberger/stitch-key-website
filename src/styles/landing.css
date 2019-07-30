@@ -1,0 +1,52 @@
+.landing-page {
+    background-color: rgb(86, 94, 206);
+}
+
+.intro {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 11vh 0 10vh 0;
+}
+
+.yarn-bowl {
+    height: 80vh;
+    filter: drop-shadow(rgba(0, 0, 0, 0.175) 7px 5px 1px) drop-shadow(rgba(68, 16, 92, 0.1) 9px 6px 1px);
+    margin: 0 2vw 0 -3vw;
+}
+
+.slogan {
+    margin: 0 5vw 0 4vw;
+    width: 20vw;
+}
+
+.slogan > h1 {
+    margin: -2.5vh 0 0 -1.5vw;
+    font-size: 8vw;
+    line-height: 105%;
+    text-align: center;
+    filter: drop-shadow(rgba(0, 0, 0, 0.25) 5px 3px 1px) drop-shadow(rgba(68, 16, 92, 0.1) 7px 4px 1px);
+    color: white;
+    font-family: 'Princess Sofia', cursive;
+}
+
+@media screen and (max-width: 800px) {
+    .intro {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .yarn-bowl {
+        height: 35vh;
+    }
+
+    .slogan {
+        width: 70vw;
+    }
+    
+    .slogan > h1 {
+        margin: 1.5vh 0 1vh 1.5vw;
+        font-size: 14vw;
+    }
+}
