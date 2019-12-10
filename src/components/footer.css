@@ -81,7 +81,7 @@
 
   .mailing-list > h2 {
     margin: 0 3vw 3vh 3vw;
-    font-size: 3vh;
+    font-size: 2.25vh;
   }
 
   .mailing-list > input {
@@ -94,7 +94,7 @@
 
   .mailing-list > button {
     padding: 1.25vh 10vw 1vh 10vw;
-    font-size: 2.5vh;
+    font-size: 2.25vh;
     font-weight: 600;
     border-radius: 50pt;
   }
